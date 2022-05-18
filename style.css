@@ -22,6 +22,7 @@ body {
     margin: 0 auto;
     /*width:100vw;*/
     /*overflow: hidden;*/
+    overflow-x: hidden;
 }
 
 .headerPink {
@@ -94,6 +95,10 @@ body {
     justify-content: space-between;
     font-size: 1.6rem;
     color: #aaa;
+    cursor: pointer;
+}
+.navbar__navlink p:hover {
+    text-decoration: underline;
 }
 
 .navbar__navlink--active {
@@ -290,7 +295,9 @@ body {
     margin-right: 1.3rem;
     /*margin-right: 1.3rem;*/
 }
-
+.watchbtn:hover {
+    cursor:pointer;
+}
 .aboutUs .watchbtn {
     border: none;
     outline: none;
@@ -560,6 +567,7 @@ body {
     height: 2.5rem;
 }
 
+
 .footer__info {
     margin-left: 3.1rem;
     margin-top: 3.3rem;
@@ -618,8 +626,8 @@ body {
 
     .socialIcon {
         width: 7rem;
-        /*height:3rem;*/
     }
+
 
     .professionalTeam__box .card {
         width: 28.3rem;
